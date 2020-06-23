@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------
@@ -76,9 +76,12 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'del_tokoonline',
+	'username' => 'u9413619_delvia',
+	'password' => 'Delvia123,',
+	'database' => 'u9413619_del_tokoonline',
+	// 'username' => 'root',
+	// 'password' => '',
+	// 'database' => 'del_tokoonline',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
